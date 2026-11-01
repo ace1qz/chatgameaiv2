@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "chatgameai",
+  "version": "${version}",
+  "name": "ChatGameAI",
+  "description": "Local, API-free solver for server chat games, gated by confidence.",
+  "authors": ["ChatGameAI"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["chatgameai.ChatGameAIClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
